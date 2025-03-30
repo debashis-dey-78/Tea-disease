@@ -9,24 +9,24 @@ model = load_model('Tea_disease.h5', compile=False)
 
 
 # Name of Classes
-CLASS_NAMES = ['Good_Leaf', 'Red_Rust', 'Red_Spider_Mite', 'Brown_Blight']
+CLASS_NAMES = ['gl', 'rr', 'rsm', 'bb']
 
 # Disease Information
 disease_info = {
-    'Good_Leaf': """
+    'gl': """
         **This is a Non-diseased tea leaf**
     """,
-    'Red_Rust': """
+    'rr': """
         **Description :** 
         
         Red rust is a common disease of tea plants...
     """,
-    'Red_Spider_Mite': """
+    'rsm': """
         **Description :** 
         
         Red spider mites are common pests...
     """,
-    'Brown_Blight': """
+    'bb': """
         **Description :** 
         
         Brown blight is a common disease of tea plants...
